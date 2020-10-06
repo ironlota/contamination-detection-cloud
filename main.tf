@@ -11,7 +11,7 @@ provider "google-beta" {
   project     = var.project_id
   region      = var.location
   zone        = var.zone
-  version = "~> 3.38"
+  version     = "~> 3.38"
 }
 
 module "storage" {
